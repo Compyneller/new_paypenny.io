@@ -1,0 +1,28 @@
+.section2__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    background-color: var(--primary-color);
+    overflow-x: hidden !important;
+
+}
+.section2__card{
+    border: none !important;
+    /* transition: 250ms ease-out !important; */
+    width: 100% !important;
+    height: 100% !important;
+
+}
+.section2__card:hover{
+    transition: 250ms ease-in !important;
+    transform: translateY(-10px) !important;
+}
+
+@media screen and (max-width : 950px) {
+    .section2__container{
+        padding: 3rem 0;
+    }
+    
+}

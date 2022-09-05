@@ -1,0 +1,98 @@
+:root{
+  --primary-color : #0054FF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden !important;
+}
+.container{
+  width: 65% !important;
+}
+.section__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden !important;
+
+}
+.section__heading{
+  font-size: 2vw;
+  font-weight: 700;
+
+}
+.section__sub__heading{
+  font-size: 1.1vw;
+  margin: 3rem 0;
+  
+}
+.download__buttons{
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.download__buttons:focus {
+  text-decoration: none;
+}
+.download__buttons:hover {
+  text-decoration: none;
+}
+.download__buttons:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+.download__buttons:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+
+@media screen and (max-width : 950px) {
+  .container{
+    width: 100% !important;
+  }
+  .download__buttons{
+  
+      padding: 12px 50px;
+    
+  }
+  .section__heading{
+    font-size: 9vw ;
+  }
+  .section__sub__heading{
+    font-size: 6vw ;
+  }
+  .section__container{
+    padding: 3rem 0;
+  }
+  
+  
+}

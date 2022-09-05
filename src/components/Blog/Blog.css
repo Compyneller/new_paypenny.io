@@ -1,0 +1,49 @@
+.blog__container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    overflow-x: hidden !important;
+
+
+}
+.custom-shape-divider-top-1662109117 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1662109117 svg {
+    position: relative;
+    display: block;
+    width: calc(208% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1662109117 .shape-fill {
+    fill: #FFFFFF;
+}
+@media screen and (max-width : 950px) {
+
+    .custom-shape-divider-top-1662109117 {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.blog__container{
+    padding: 3rem 0;
+
+
+}
+
+}

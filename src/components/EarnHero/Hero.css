@@ -1,0 +1,118 @@
+.hero__container{
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    overflow-x: hidden !important;
+}
+.custom-shape-divider-bottom-1662033800 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.earn__hero__heading{
+    font-size: 3vw ;
+    font-weight: bold;
+}
+.earn__hero__sub__heading{
+    font-size: 1.5vw;
+    opacity: .7;
+}
+
+.custom-shape-divider-bottom-1662033800 svg {
+    position: relative;
+    display: block;
+    width: calc(105% + 1.3px);
+    height: 192px;
+}
+
+.custom-shape-divider-bottom-1662033800 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.hero__text__container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    color: #ffff;
+    /* min-height: 70vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero__send{
+    font-size: 8vw;
+    position: absolute;
+    font-weight: 900;
+    opacity: .4 !important;
+    bottom: 0;
+    left: 0;
+
+    
+}
+.hero__money{
+    position: absolute;
+  
+    margin:  auto;
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: 600;
+
+}
+.hero__india{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 8vw;
+    font-weight: 900;
+    opacity: .5 !important;
+    
+}
+
+@media screen and (max-width : 950px) {
+    .hero__text__container{
+        flex-direction: column;
+    }
+    .hero__send{
+        font-size: 15vw;
+        position: relative;
+        font-weight: 900;
+        opacity: .4;
+        bottom: 0;
+        left: 0;
+    
+        
+    }
+    .hero__money{
+        position: relative;
+      
+        margin:  auto;
+        text-align: center;
+        font-size: 10vw;
+        font-weight: 600;
+    
+    }
+    .hero__india{
+        position: relative;
+        right: 0;
+        top: 0;
+        font-size: 15vw;
+        font-weight: 900;
+        opacity: .5;
+        
+    }
+    .earn__hero__heading{
+        font-size: 8vw;
+    }
+    .earn__hero__sub__heading{
+        font-size: 4vw;
+    }
+    
+}
